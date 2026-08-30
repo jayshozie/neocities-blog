@@ -7,13 +7,16 @@ This repo contains the source code of my blog at
 
 [Zola](https://www.getzola.org)
 
-## How to Serve?
+## How to Build/Serve?
 
 ```bash
 ~/ $ git clone git@github.com:jayshozie/neocities-blog
 ~/ $ cd neocities-blog
 ~/neocities-blog $ zola build # builds the website in ./public/
-~/neocities-blog $ zola serve # serves the website at http://127.0.0.1:1111/
+# you can use that to create the static website and publish it in services like
+# neocities. or, you can serve the website locally via
+~/neocities-blog $ zola serve # which serves the website at
+# http://127.0.0.1:1111/
 ```
 
 # License

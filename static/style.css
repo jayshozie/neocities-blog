@@ -52,25 +52,31 @@ h1, h2, h3, h4 {
 
 .grid-layout {
     display: grid;
-    grid-template-columns: 35ch 1fr 35ch;
-    gap: 2rem;
-    margin-top: 3rem;
+    grid-template-columns: 30ch 1fr 30ch;
+    gap: 3vh;
+    margin-top: 4vh;
 }
 
 .core-content, .left-sidebar, .right-sidebar, .top-bar {
     background-color: var(--bg-card);
     padding-right: 30px;
     padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border: 2px solid var(--nmagenta);
     /* border: 3px solid transparent; */
-    /* border-image: linear-gradient(90deg, --nblue, --nblue, --nmagenta, --nmagenta) 1; */
+    /* border-image: linear-gradient(90deg, --nblue, --nmagenta) 1; */
     border-radius: 12px;
+}
+
+.core-content {
+    margin-bottom: 4vh;
+    max-width: 80ch;
 }
 
 .tags {
     padding-left: 1rem;
+    margin-bottom: 1rem;
     font-size: 14px;
     border-radius: 12px;
     border: 1px solid var(--bblack);
@@ -78,7 +84,7 @@ h1, h2, h3, h4 {
 
 .left-sidebar, .right-sidebar {
     position: sticky;
-    top: 107px;
+    top: 11vh;
     height: max-content;
     max-height: 80vh;
     overflow-y: auto;
@@ -86,7 +92,7 @@ h1, h2, h3, h4 {
 
 .top-bar {
     position: sticky;
-    top: 1rem;
+    top: 1vh;
     z-index: 100;
     background-color: var(--bg-card);
     padding: 0px 30px;

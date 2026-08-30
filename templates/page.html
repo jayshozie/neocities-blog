@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <article>
+    <h2 id="postTitleH1" style="margin-bottom: .1em;">{{ page.title }}</h2>
+    <small id="postDate">Date: {{ page.date }}</small>
+
+    <div class="post-body">
+      {{ page.content | safe }}
+    </div>
+
+    <div class="tags">
+    {% if page.taxonomies.tags %}
+      {% for tag in page.taxonomies.tags %}
+        <a href="/tags/{{ tag }}">#{{ tag }}</a>
+      {% endfor %}
+    {% endif %}
+    </div>
+  </article>
+{% endblock content %}

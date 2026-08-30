@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Posts</h1>
+
+  {% for page in paginator.pages %}
+    <article class="post-preview">
+      <h2 style="margin-bottom: .1em;"><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+      <small>Date: {{ page.date }}</small>
+
+      <div class="summary">
+        {{ page.summary | safe }}
+      </div>
+
+      <!-- <a href="{{ page.permalink }}">Read Full Post...</a> -->
+      <hr>
+    </article>
+  {% endfor %}
+
+  {% if paginator.next %}
+    <a href="{{ paginator.next }}">Older Posts -></a>
+  {% endif %}
+{% endblock content %}

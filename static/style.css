@@ -1,0 +1,116 @@
+:root {
+    --pure-black: #000000;
+
+    --nblack: #15161e;
+    --nred: #f7768e;
+    --ngreen: #9ece6a;
+    --nyellow: #e0af68;
+    --nblue: #7aa2f7;
+    --nmagenta: #bb9af7;
+    --ncyan: #7dcfff;
+    --nwhite: #a9b1d6;
+
+    --bblack: #414868;
+    --bred: #ff899d;
+    --bgreen: #9fe044;
+    --byellow: #faba4a;
+    --bblue: #8db0ff;
+    --bmagenta: #c7a9ff;
+    --bcyan: #a4daff;
+    --bwhite: #c0caf5;
+
+    --bg-absolute: var(--pure-black);
+    --bg-card: var(--nblack);
+    --fg-main: var(--bwhite);
+}
+
+body {
+    background-color: var(--bg-absolute);
+    color: var(--fg-main);
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    max-width: 150ch;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    color: var(--nblue);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--ncyan);
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+    color: var(--nwhite);
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 35ch 1fr 35ch;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.core-content, .left-sidebar, .right-sidebar, .top-bar {
+    background-color: var(--bg-card);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid var(--nmagenta);
+    /* border: 3px solid transparent; */
+    /* border-image: linear-gradient(90deg, --nblue, --nblue, --nmagenta, --nmagenta) 1; */
+    border-radius: 12px;
+}
+
+.tags {
+    padding-left: 1rem;
+    font-size: 14px;
+    border-radius: 12px;
+    border: 1px solid var(--bblack);
+}
+
+.left-sidebar, .right-sidebar {
+    position: sticky;
+    top: 107px;
+    height: max-content;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.top-bar {
+    position: sticky;
+    top: 1rem;
+    z-index: 100;
+    background-color: var(--bg-card);
+    padding: 0px 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+}
+
+pre {
+    background-color: var(--nblack);
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    border: 1px solid var(--bblack);
+}
+
+code {
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+p code, li code {
+    background-color: var(--nblack);
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: var(--ncyan);
+}

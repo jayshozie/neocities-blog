@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jayshozie's Personal Blog</title>
+    <meta name="description" content="Jayshozie's Personal Blog">
+    <link rel="icon" href="{{ get_url(path='images/favicon.png') }}" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link href="{{ get_url(path='style.css') }}" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <nav class="top-bar">
+        <a href="/"><h3>Main Page</h3></a>
+        <a href="/about.html"><h3>About</h3></a>
+        <a href="/archive.html"><h3>Archive</h3></a>
+        <a href="/contact.html"><h3>Contact</h3></a>
+    </nav>
+
+    <main class="grid-layout">
+
+      <aside class="left-sidebar">
+        <h3>Emir Baha Yıldırım<br></h3>
+        <p>
+          tme cis pan dude<br>
+          he/they<br>
+          21<br>
+          B.Sc. METU Civil Engineering<br>
+          FOSS Developer<br>
+          MLM Communist ☭<br>
+        </p>
+      </aside>
+
+      <section class="core-content">
+          {% block content %}
+          {% endblock content %}
+      </section>
+
+      <aside class="right-sidebar">
+        <h3>All Tags</h3>
+        <ul>
+          {% set global_tags = get_taxonomy(kind="tags") %}
+          {% for term in global_tags.items %}
+            <li><a href="{{ term.permalink }}">{{ term.name }} ({{ term.pages | length }})</a></li>
+          {% endfor %}
+        </ul>
+      </aside>
+
+    </main>
+
+    <!-- <div id="footer"> -->
+    <!--   <a href="https://github.com/jayshozie">GitHub</a> -->
+    <!-- </div> -->
+  </body>
+</html>

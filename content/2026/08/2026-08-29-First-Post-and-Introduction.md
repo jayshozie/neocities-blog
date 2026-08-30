@@ -1,5 +1,5 @@
 +++
-title = "First Post and Introduction"
+title = "WIP: First Post and Introduction"
 date = 2026-08-30
 
 [taxonomies]
@@ -31,9 +31,9 @@ long story.
 
 ---
 
-## My Early Life
+### My Early Life
 
-I was born in Aug. 1st, 2005 in Ankara. I went to local primary and secondary
+I was born on Aug. 1st, 2005 in Ankara. I went to local primary and secondary
 schools, then went to Betül Can Anatolian HS (Çankaya/Ankara) via LGS (Turkish
 High School Entrance Exam). Sadly, right as we started our second semester in
 high school, COVID struck. Our school made the executive decision of completely
@@ -57,7 +57,7 @@ as we can.
 
 ---
 
-## My Journey in Computer Science
+### My Computer Science Journey
 
 My older brother graduated as a computer engineer from a local university with
 honors. While he studied, he taught me as much as he can, and although we have a
@@ -94,23 +94,26 @@ the International-Obfuscated-C-Code-Contest ass code they wrote on the paper,
 and pick an answer out of 5 choices. Even though I hated it, I got a pass from
 both. Attendance is easy enough, you don't even have to mentally attend the
 lectures, you just scan a QR code at the end of each lecture; however, the labs
-are...the labs are a nightmare, but in a good way. As far as I understood,
+were...the labs were a nightmare, but in a good way. As far as I understood,
 basically no one can ever get anything higher than 0% on any lab exams
-conducted. I got 100% in most, and here is why. The lab exams use a specialized
-programming environment extension of Moodle called VPL (Virtual Programming
-Lab). The editor is horseshit, but the test suite is ingenious, at least for me.
-It's a completely automatic system. The course instructor/lab assistant writes
-an exam question ([you can check out my repo for the CENG240 course
-btw](https://github.com/jayshozie/ceng240)) and ***the test suites***, and when
-the student saves their implementation, VPL automatically runs those test suites
-and, according to how many passed/failed, it gives a completely automated grade
-to the student. I simply loved it while taking this course (and
-[CENG301](https://github.com/jayshozie/ceng301)), because I was alone. I could
-try something, fail, and then try again. People who didn't already know
-programming, even a little bit, completely botched these exams. As far as I
-know, I was one of the only 3 people who could actually get at least 90%. Most
-people got somewhere between 0-20% (most exams had 10 tests, 2/10 -> 20%). Then
-the day came... We were asked this question:
+conducted. I got 100% in most, and here is why.
+
+The lab exams use a specialized programming environment extension of Moodle
+called VPL (Virtual Programming Lab). The editor is horseshit, but the test
+suite is ingenious, at least for me. It's a completely automatic system. The
+course instructor/lab assistant writes an exam question ([you can check out my
+repo for the CENG240 course btw](https://github.com/jayshozie/ceng240)) and
+***the test suites***, and when the student saves their implementation, VPL
+automatically runs those test suites and, according to how many passed/failed,
+it gives a completely automated grade to the student. I simply loved it while
+taking this course (and [CENG301](https://github.com/jayshozie/ceng301)),
+because I was alone. I could try something, fail, and then try again. People who
+didn't already know programming, even a little bit, completely botched these
+exams. As far as I know, I was one of the only 3 people who could actually get
+at least 90%. Most people got somewhere between 0-20% (most exams had 10 tests,
+2/10 -> 20%).
+
+Then that day arrived... We were asked this question:
 ```markdown
 Write a function called `matrMult(A, B)`, which takes two matrices of unknown
 size, calculates their "matrix multiplication", and returns the resulting
@@ -118,31 +121,36 @@ matrix.
 ```
 The original question was a bit longer, but you get the gist of it. Looking back
 at it now, I had no idea how easy this question was, but during the exam I
-completely fumbled it. I had literally zero idea how to implement it. They did
-give us the formal definition of it with the sum ($\sum$) symbol and all, but I
-simply couldn't understand how I was supposed to multiply everything in the
-correct order and get the correct index of the resulting matrix. I got a 0% on
-that exam after working on it for 45 minutes, which was just enough to tip me
-back to BA after the points I lost in the midterm and the final.
+got mindfucked. I had literally zero idea how to implement it. They did give us
+the formal definition of it with the sum ($\sum$) notation and all, but I simply
+couldn't understand how I was supposed to multiply everything in the correct
+order and get the correct index of the resulting matrix. I got a 0% on that exam
+after working on it for 45 minutes, which was just enough to tip me back to BA
+after the points I lost in the midterm and the final.
 
 After that course, I understood that my life was gonna have programming in it
 one way or another. So, I actually started studying computer engineering courses
-of my university completely on my own alongside my bachelors' courses. You can
-check out my projects at my [GitHub](https://github.com/jayshozie)
+of my university on my own alongside my bachelors' courses. After that semester,
+I started studying C extensively. I created multiple projects, and you can find
+all of them on my [GitHub](https://github.com/jayshozie), and I'm still actively
+working on most of them.
 
+---
 
+### What About Civil Engineering?
 
+To be perfectly honest, I actually love civil engineering, especially
+construction sites. I love the theory and the execution, but here is the thing:
+I love computer science way more.
 
-
-
-
-
-
-
-
-
-
-
-
+I smoke regularly, about a pack a day. When I'm studying for my civil
+engineering courses, I take a smoke break every 50 minutes ([50/10
+pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique)); however, when I'm
+working on [jayshell](https://github.com/jayshozie/jayshell), or an obscure
+script no one will use, I completely get in the zone and I don't even feel the
+need to smoke, and I'm a firm believer in that if someone loves doing something
+so much that they forget to do basic human activities like eating and use the
+restroom, they will eventually become the best at that thing, which is
+programming for me.
 
 

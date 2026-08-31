@@ -1,5 +1,5 @@
 +++
-title = "WIP: First Post and Introduction"
+title = "First Post and Introduction"
 date = 2026-08-30
 
 [taxonomies]
@@ -7,7 +7,7 @@ tags = ["linux", "homelab", "career"]
 +++
 
 Hi, everyone! My name is [Emir Baha Yıldırım](https://github.com/jayshozie), aka
-Jay Levin.
+Jay Levin, aka Jayshozie.
 
 <!-- more -->
 
@@ -24,7 +24,8 @@ at [8ICEES](https://www.iceesturkey.org/).
 This blog will be a somewhat relaxed, it won't be something like a university
 course. I will talk about my journey throughout Linux and specifically Arch,
 servers, homelabbing and the evolution of my homelab, music, concerts I go to,
-shows and movies I watch, stuff happening in my life, and everything in between.
+shows and movies I watch, TTRPGs I play, stuff happening in my life, and
+everything in between.
 
 Today, I wanted to talk about my story. So, buckle up, because this will be a
 long story.
@@ -144,13 +145,84 @@ construction sites. I love the theory and the execution, but here is the thing:
 I love computer science way more.
 
 I smoke regularly, about a pack a day. When I'm studying for my civil
-engineering courses, I take a smoke break every 50 minutes ([50/10
-pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique)); however, when I'm
-working on [jayshell](https://github.com/jayshozie/jayshell), or an obscure
-script no one will use, I completely get in the zone and I don't even feel the
-need to smoke, and I'm a firm believer in that if someone loves doing something
-so much that they forget to do basic human activities like eating and use the
-restroom, they will eventually become the best at that thing, which is
+engineering courses, I take a smoke break every 50 minutes for 10 minutes
+([50/10 pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique)); however,
+when I'm working on [jayshell](https://github.com/jayshozie/jayshell), or an
+obscure script no one will use, I completely get in the zone and I don't even
+feel the need to smoke, and I'm a firm believer in that if someone loves doing
+something so much that they forget to do basic human activities like eating and
+use the restroom, they will eventually become the best at that thing, which is
 programming for me.
 
+I think, the reason I love programming so much and get obsessed over it is the
+sheer iteration speed of writing, compiling, and testing code. You can't achieve
+that with any other type of engineering. In civil engineering practice, even a
+small building take months, and in theory the courses are simply too abstracted
+to be satisfying. This is true with most other engineering disciplines except
+computer science.
 
+---
+
+### Beyond the Terminal
+
+#### Multimedia
+
+I played the violin for 12 years, starting in primary school. I listen to every
+genre of music—except country, no one likes country—, but theoretically
+complicated music (e.g prog metal, classical music) music is the one I like the
+most, but, as I said, I listen to everything. It's probably because of my
+history with classical music and violin. At every month's first post, I'll put a
+list of songs that I found out the previous month. For the past few months, I
+mostly listen to Opeth.
+
+I love watching movies, TV shows, documentaries. I have a respectable
+BDRip/WebDLRip collection. At every month's first post, I'll put a list of media
+that I watched the previous month and really liked.
+
+**My top 5 movies of all time:**
+1. Interstellar - 2014, Christopher Nolan
+2. Oppenheimer - 2023, Christopher Nolan
+3. *TRON: Legacy - 2010, Joseph Kosinski
+4. Whiplash - 2014, Damien Chazelle
+5. 2001: A Space Odyssey - 1968, Stanley Kubrick
+- Honorable Mentions: The Grand Budapest Hotel - 2014, Wes Anderson | **Now You
+See Me - 2013, Louis Leterrier | Iron Man - 2008, Jon Favreu | V for Vendetta -
+2005, James McTeigue | Amadeus - 1984, Miloš Forman | The Menu - 2022, Mark
+Mylod
+
+**My top 5 shows of all time:**
+1. how i met your mother - 2005–2014
+2. The Good Place - 2016–2020
+3. Sherlock - 2010–2017
+4. Eavesdropping - 2024–Present
+5. Lucifer - 2016–2021
+- Honorable Mentions: Suits - 2011–2019 | Fleabag - 2016–2019 | Blacklist -
+2013–2023 | House, M.D. - 2004–2012 | The Queen's Gambit, 2020–2020 | The
+Lincoln Lawyer, 2022–Present
+
+*: I know it looks like the hypernova vs. coughing baby meme, but the movie is
+incredibly nostalgic to me, and Joseph Kosinski, being an architect, made a
+stellar job, the movie looks divine.<br>
+**: Again, it's really nostalgic for me, and I love magic.
+
+#### TTRPGs
+
+I love TTRPGs. I met the TTRPG genre late, at my university's science-fiction
+and fantasy society. I don't think any GM should be get stuck with a single
+system, or any system for that matter, and run the stories they value and like.
+
+I'm a horror/thriller GM, and I mostly play and run Vampire: The Masquerade
+(V20 - 20th Anniversary Edition) games, but when I have a really good story, I
+either create a simple system for it, or I just give D20s to my players and ask
+them to roll it whenever they want to do something that requires a roll, without
+any stats and that good stuff.
+
+---
+
+### Welcome to My Blog
+
+If you've read until here, you're an amazing person, thank you. I wanted a
+corner of the Internet where I can just dump whatever's on my mind without
+thinking whether people would like it or not, hence this blog. I'll try to write
+at least a post every month, but depending on my schedule it could be more/less
+frequent. You can add my blog to your favorite RSS reader [here](/atom.xml).

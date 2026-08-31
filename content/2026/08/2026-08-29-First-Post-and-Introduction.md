@@ -157,7 +157,7 @@ programming for me.
 I think, the reason I love programming so much and get obsessed over it is the
 sheer iteration speed of writing, compiling, and testing code. You can't achieve
 that with any other type of engineering. In civil engineering practice, even a
-small building take months, and in theory the courses are simply too abstracted
+small building takes months, and in theory the courses are simply too abstracted
 to be satisfying. This is true with most other engineering disciplines except
 computer science.
 
@@ -169,7 +169,7 @@ computer science.
 
 I played the violin for 12 years, starting in primary school. I listen to every
 genre of music—except country, no one likes country—, but theoretically
-complicated music (e.g prog metal, classical music) music is the one I like the
+complicated music (e.g prog metal, classical music) is the one I like the
 most, but, as I said, I listen to everything. It's probably because of my
 history with classical music and violin. At every month's first post, I'll put a
 list of songs that I found out the previous month. For the past few months, I
@@ -208,7 +208,7 @@ stellar job, the movie looks divine.<br>
 #### TTRPGs
 
 I love TTRPGs. I met the TTRPG genre late, at my university's science-fiction
-and fantasy society. I don't think any GM should be get stuck with a single
+and fantasy society. I don't think any GM should get stuck with a single
 system, or any system for that matter, and run the stories they value and like.
 
 I'm a horror/thriller GM, and I mostly play and run Vampire: The Masquerade

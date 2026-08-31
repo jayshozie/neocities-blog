@@ -225,4 +225,5 @@ If you've read until here, you're an amazing person, thank you. I wanted a
 corner of the Internet where I can just dump whatever's on my mind without
 thinking whether people would like it or not, hence this blog. I'll try to write
 at least a post every month, but depending on my schedule it could be more/less
-frequent. You can add my blog to your favorite RSS reader [here](/atom.xml).
+frequent. You can add my blog to your favorite RSS reader here:
+[https://jayshozie.neocities.org/atom.xml](/atom.xml).

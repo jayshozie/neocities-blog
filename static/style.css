@@ -28,7 +28,7 @@ body {
     background-color: var(--bg-absolute);
     color: var(--fg-main);
     font-family: 'JetBrainsMono';
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6em;
     max-width: 150ch;
     margin: 0 auto;
@@ -88,7 +88,7 @@ h2 {
 
 .left-sidebar, .right-sidebar {
     position: sticky;
-    top: 11vh;
+    top: 10.2vh;
     height: max-content;
     max-height: 80vh;
     overflow-y: auto;

@@ -17,25 +17,28 @@
 space2dash() {
     local msg
     msg="$1"
-    [[ -n $msg ]] && msg=${msg// /-} || msg='WIP'
+    shopt -s extglob
+    [[ -n $msg ]] &&
+        msg=${msg//+([^a-zA-Z0-9_])/-} ||
+        msg='WIP'
     REPLY="$msg"
 }
 
 main() {
-    local year month today title title_parsed dest
-    year=$(date +%Y)
-    month=$(date +%m)
-    day=$(date +%d)
+    local year month day today title title_parsed dest
+    printf -v year '%(%Y)T'
+    printf -v month '%(%m)T'
+    printf -v day '%(%d)T'
     today="${year}-${month}-${day}"
-    dest="${HOME}/personal/neo-blog/blog/content/${year}/${month}"
+    dest="${PWD}/content/${year}/${month}"
 
-    echo -n 'Please enter the title of the post [default: WIP]: '
+    echo 'Please enter the title of the post [default: WIP]:'
     read -r title
 
     space2dash "$title"
     title_parsed="$REPLY"
 
-    mkdir -p "$dest" && touch "$dest"/"$today"-"$title_parsed".md
+    mkdir -p "$dest" && : >>"$dest"/"$today"-"$title_parsed".md
 }
 
 main "$@"

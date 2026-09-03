@@ -16,4 +16,10 @@ build:
 serve:
 	zola serve
 
-.PHONY: check serve build
+help:
+	@echo -e 'Usage:'
+	@echo -e '    make build'
+	@echo -e '    make serve'
+	@echo -e '    make check'
+
+.PHONY: check serve build help
